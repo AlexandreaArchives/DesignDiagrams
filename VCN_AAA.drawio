@@ -1,0 +1,81 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.7">
+  <diagram name="Page-1" id="fUcH-wevyDq2fCCmj423">
+    <mxGraphModel dx="1018" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Entry Point Contracts" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fillColor=#B1DDF0;strokeColor=#BAC8D3;fontColor=#182E3E;" parent="1" vertex="1">
+          <mxGeometry x="89" y="8" width="212" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Bundlers" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fillColor=#B1DDF0;strokeColor=#BAC8D3;fontColor=#182E3E;" parent="1" vertex="1">
+          <mxGeometry x="165" y="135" width="122" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Account Factory" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fillColor=#B1DDF0;strokeColor=#BAC8D3;fontColor=#182E3E;" parent="1" vertex="1">
+          <mxGeometry x="336" y="135" width="176" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Smart Accounts" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fillColor=#B1DDF0;strokeColor=#BAC8D3;fontColor=#182E3E;" parent="1" vertex="1">
+          <mxGeometry x="141" y="261" width="170" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Paymaster Contract" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fillColor=#B1DDF0;strokeColor=#BAC8D3;fontColor=#182E3E;" parent="1" vertex="1">
+          <mxGeometry x="44" y="388" width="201" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Interact with" style="curved=1;startArrow=none;endArrow=block;exitX=0.56;exitY=1;entryX=0.5;entryY=-0.01;labelBackgroundColor=none;strokeColor=#EEEEEE;fontColor=default;" parent="1" source="2" target="3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="226" y="98" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8" value="Deploy" style="curved=1;startArrow=none;endArrow=block;exitX=0.96;exitY=1;entryX=0.5;entryY=-0.01;labelBackgroundColor=none;strokeColor=#EEEEEE;fontColor=default;" parent="1" source="2" target="4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="425" y="98" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9" value="Manage" style="curved=1;startArrow=none;endArrow=block;exitX=0.31;exitY=1;entryX=0.18;entryY=0;labelBackgroundColor=none;strokeColor=#EEEEEE;fontColor=default;" parent="1" source="2" target="5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="101" y="98" />
+              <mxPoint x="101" y="225" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="10" value="Authorize" style="curved=1;startArrow=none;endArrow=block;exitX=0.2;exitY=1;entryX=0.29;entryY=-0.01;labelBackgroundColor=none;strokeColor=#EEEEEE;fontColor=default;" parent="1" source="2" target="6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="44" y="98" />
+              <mxPoint x="44" y="351" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" value="Bundle Transactions" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;labelBackgroundColor=none;strokeColor=#EEEEEE;fontColor=default;" parent="1" source="3" target="5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" value="Create" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=1;entryY=0;labelBackgroundColor=none;strokeColor=#EEEEEE;fontColor=default;" parent="1" source="4" target="5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="425" y="225" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" value="Execute Transactions" style="curved=1;startArrow=none;endArrow=block;exitX=0.32;exitY=1;entryX=0.52;entryY=-0.01;labelBackgroundColor=none;strokeColor=#EEEEEE;fontColor=default;" parent="1" source="5" target="6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="153" y="351" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" value="Fund Transactions" style="curved=1;startArrow=none;endArrow=block;exitX=0.95;exitY=-0.01;entryX=0.83;entryY=1;labelBackgroundColor=none;strokeColor=#EEEEEE;fontColor=default;" parent="1" source="6" target="5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="358" y="351" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
